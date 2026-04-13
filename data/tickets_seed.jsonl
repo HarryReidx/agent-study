@@ -1,0 +1,20 @@
+{"title":"用户A登录失败","description":"输入正确密码后提示账户锁定","error_log":"AUTH_401","priority":"P2"}
+{"title":"SSO登录回调报错","description":"回调地址403","error_log":"forbidden callback","priority":"P1"}
+{"title":"管理员权限失效","description":"角色已分配但无法访问后台","error_log":"PERM_DENY","priority":"P1"}
+{"title":"普通用户看到管理员菜单","description":"权限边界异常","error_log":"","priority":"P0"}
+{"title":"订单接口超时","description":"/api/order 超过30s","error_log":"timeout","priority":"P1"}
+{"title":"支付回调接口500","description":"第三方回调失败","error_log":"NullPointer","priority":"P1"}
+{"title":"数据同步任务失败","description":"ERP到CRM同步中断","error_log":"sync failed at step3","priority":"P2"}
+{"title":"夜间批处理同步遗漏","description":"部分数据未落库","error_log":"missing rows","priority":"P2"}
+{"title":"首页白屏","description":"发布后首页空白","error_log":"js chunk load error","priority":"P1"}
+{"title":"报表页面图表不显示","description":"echarts初始化异常","error_log":"cannot read property","priority":"P3"}
+{"title":"部署失败-k8s","description":"pod启动CrashLoopBackOff","error_log":"image pull backoff","priority":"P0"}
+{"title":"灰度发布回滚","description":"新版本健康检查失败","error_log":"health check fail","priority":"P1"}
+{"title":"配置中心读取错误","description":"prod环境读取到test配置","error_log":"config mismatch","priority":"P0"}
+{"title":"Redis地址配置错误","description":"连接被拒绝","error_log":"connection refused","priority":"P1"}
+{"title":"用户登录后频繁掉线","description":"token校验异常","error_log":"jwt expired","priority":"P2"}
+{"title":"接口网关限流误伤","description":"正常流量被429","error_log":"too many requests","priority":"P2"}
+{"title":"文件上传接口超时","description":"大文件上传失败","error_log":"upstream timeout","priority":"P2"}
+{"title":"权限审批流程卡住","description":"审批节点无法流转","error_log":"workflow error","priority":"P2"}
+{"title":"部署脚本权限不足","description":"CI执行kubectl失败","error_log":"permission denied","priority":"P1"}
+{"title":"配置热更新未生效","description":"修改配置后服务未刷新","error_log":"stale config","priority":"P3"}
