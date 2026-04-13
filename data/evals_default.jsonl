@@ -1,0 +1,5 @@
+{"title":"登录一直失败","description":"账号密码正确但提示未授权","priority":"P2","expected_category":"auth"}
+{"title":"接口超时严重","description":"查询订单接口经常504","priority":"P1","expected_category":"api"}
+{"title":"部署后服务起不来","description":"新版本pod持续重启","priority":"P0","expected_category":"deploy"}
+{"title":"权限异常","description":"用户被误授予管理员权限","priority":"P0","expected_category":"permission"}
+{"title":"配置错误导致连接失败","description":"数据库地址写错","priority":"P1","expected_category":"config"}

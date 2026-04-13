@@ -1,0 +1,6 @@
+{"category": "auth", "title": "登录失败排查", "steps": ["检查账号状态", "校验SSO回调地址", "确认时钟同步"]}
+{"category": "permission", "title": "权限异常排查", "steps": ["检查角色绑定", "验证缓存是否刷新", "审计最近策略变更"]}
+{"category": "api", "title": "接口超时排查", "steps": ["查看网关超时配置", "定位慢SQL", "检查下游依赖延迟"]}
+{"category": "sync", "title": "数据同步失败", "steps": ["检查任务调度状态", "比对源目标数据", "重放失败批次"]}
+{"category": "deploy", "title": "部署失败", "steps": ["检查镜像可用性", "查看pod事件", "验证配置与密钥"]}
+{"category": "config", "title": "配置错误", "steps": ["确认环境隔离", "核对配置中心版本", "触发配置刷新"]}
